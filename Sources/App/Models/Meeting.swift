@@ -6,7 +6,7 @@
 //
 
 import Vapor
-import FluentSQLite
+import FluentPostgreSQL
 
 final class Meeting: Codable {
    
@@ -37,6 +37,6 @@ final class Meeting: Codable {
     }
 }
 
-extension Meeting: SQLiteModel {}
+extension Meeting: PostgreSQLModel {}
 extension Meeting: Migration {}
 extension Meeting: Content {}

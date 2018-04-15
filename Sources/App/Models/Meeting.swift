@@ -40,3 +40,4 @@ final class Meeting: Codable {
 extension Meeting: PostgreSQLModel {}
 extension Meeting: Migration {}
 extension Meeting: Content {}
+extension Meeting: Parameter {}
